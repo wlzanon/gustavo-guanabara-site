@@ -15,11 +15,20 @@
     --cor3: #2fa866;
     --cor4: #1a5c37;
     --cor5: #063d1e;
-    --cor6: #fff;
+    --cor6: #ffffff;
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue', cursive;
     --fonte-android: 'Android', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    width: 100%;
 }
 
 body {
@@ -46,6 +55,13 @@ nav {
 
 main {
     background-color: var(--cor6);
+    border-radius: 10px;
+
+    min-width: 280px;
+    max-width: 800px;
+    margin: auto;
+
+
 }
 
 main h1 {
